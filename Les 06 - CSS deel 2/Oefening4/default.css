@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+  
+
+.kolom1 {
+    width: 60%;
+    padding: 15px;
+    float: left;
+}
+
+.kolom2 {
+    width: 40%;
+    padding: 15px;
+    float: left;
+}
+  
+.kolom3 {
+    width: 25%;
+    padding: 15px;
+    float: left;
+}
+  
+@media screen and (max-width: 600px) {
+    .kolom1 {
+      width: 100%;
+    }
+    .kolom2 {
+      width: 100%;
+    }
+    .kolom3 {
+      width: 100%;
+    }
+}

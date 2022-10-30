@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+  
+  
+.kolom1 {
+    width: 30%;
+    padding: 15px;
+    float: left;
+}
+  
+.kolom2 {
+    width: 70%;
+    padding: 15px;
+    float: left;
+}
+  
+@media screen and (max-width: 600px) {
+    .kolom1 {
+      width: 100%;
+    }
+    .kolom2 {
+      width: 100%;
+    }
+}
+
