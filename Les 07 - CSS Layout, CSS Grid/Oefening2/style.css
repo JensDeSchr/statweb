@@ -1,0 +1,39 @@
+.item1 { 
+    grid-area: header;
+    background-color: blue;
+ }
+.item2 { 
+    grid-area: aside; 
+    background-color: greenyellow;
+}
+.item3 { 
+    grid-area: main; 
+    background-color: black;
+}
+.item4 { 
+    grid-area: footer; 
+    background-color: orange;
+}
+
+.grid-container {
+    display: grid;
+    width: 800px;
+    grid-template-areas:
+    'header header header'
+    'aside main main'
+    'footer footer footer';
+    grid-gap: 10px;
+    padding: 10px;
+    grid-template-rows: 100px 400px 50px;
+    grid-template-columns: 200px auto;
+}
+
+.grid-container div {
+    display: flex;
+    color: white;
+    font-size: 30px;
+    border-radius: 5px;
+    align-items:center;
+    justify-content:center;
+  
+}

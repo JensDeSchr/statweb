@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('kompas.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+
+div {
+    color: white;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 25px;
+}
+
+.noord {
+    position: absolute;
+    width: 100%;
+    top: 8px;
+    transform: translate(50%);
+}
+
+.oost {
+    position: absolute;
+    height: 100%;
+    right: 8px;
+    transform: translateY(50%);
+}
+
+.zuid {
+    position: absolute;
+    width: 100%;
+    bottom: 8px;
+    transform: translate(50%);
+}
+
+.west {
+    position: absolute;
+    height: 100%;
+    left: 8px;
+    transform: translateY(50%);
+}

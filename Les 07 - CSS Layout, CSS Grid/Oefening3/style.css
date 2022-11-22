@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+body {
+    margin: 10px;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.header-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 33%;
+}
+
+.header1 {
+    background-color: aqua;
+    width: 33%;
+}
+
+.header2 {
+    background-color: blueviolet;
+    width: 33%;
+}
+
+.header3 {
+    background-color: green;
+    width: 33%;
+}
+
+.body-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 33%;
+    padding-top: 5px;
+}
+
+.body1 {
+    background-color: yellow;
+    width: 24%;
+}
+
+.body2 {
+    background-color: red;
+    width: 24%;
+}
+
+.body3 {
+    background-color: purple;
+    width: 24%;
+}
+
+.body4 {
+    background-color: cadetblue;
+    width: 24%;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 33%;
+    padding-top: 5px;
+}
+
+.footer1 {
+    background-color: blue;
+    width: 49%;
+}
+
+.footer2 {
+    background-color: olive;
+    width: 49%;
+}
+
+.bodyinbody-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 30px;
+    
+}
+
+.body11 {
+    background-color: blue;
+    align-self: center;
+    width: 80%;
+    font-size: 30px;
+    text-align: center;
+    height: fit-content;
+    
+}
+
+.body12 {
+    background-color: green;
+    align-self: center;
+    width: 80%;
+    font-size: 30px;
+    text-align: center;
+    height: fit-content;
+}
+
+.body13 {
+    background-color: purple;
+    align-self: center;
+    width: 80%;
+    font-size: 30px;
+    text-align: center;
+    height: fit-content;
+}
